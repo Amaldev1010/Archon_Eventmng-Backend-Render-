@@ -116,7 +116,10 @@ REST_FRAMEWORK = {
 }
 
 # CORS settings (for React frontend integration)
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://archon-eventmng-frontend-versel.vercel.app",
+    # add any other vercel preview URLs if needed
+]
 
 # Email backend settings (Gmail SMTP)
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
