@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-i_nwu10n8-l42v%k86iyvj8@jplk4ah%pluwki#%wsi$s#_8ya'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "archon-eventmng.onrender.com",
