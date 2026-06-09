@@ -63,15 +63,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'eventmng.wsgi.application'
 
-# MySQL Database Configuration
+# postgresql config
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'event_db',
-        'USER': 'root',
-        'PASSWORD': '198022',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres.igvpahrbjpwyiwbwnilr',
+        'PASSWORD': 'amaldev.v.v',
+        'HOST': 'aws-1-ap-northeast-1.pooler.supabase.com',
+        'PORT': '6543',
     }
 }
 
