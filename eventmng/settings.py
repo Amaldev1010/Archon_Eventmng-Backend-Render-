@@ -118,7 +118,7 @@ REST_FRAMEWORK = {
 # CORS settings (for React frontend integration)
 CORS_ALLOWED_ORIGINS = [
     "https://archon-eventmng-frontend-versel.vercel.app",
-    # add any other vercel preview URLs if needed
+    "https://archon-eventmng-frontend-versel-7qqskvj13.vercel.app",
 ]
 
 # Email backend settings (Gmail SMTP)
