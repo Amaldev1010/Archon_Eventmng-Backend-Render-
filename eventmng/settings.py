@@ -9,7 +9,11 @@ SECRET_KEY = 'django-insecure-i_nwu10n8-l42v%k86iyvj8@jplk4ah%pluwki#%wsi$s#_8ya
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['archin-eventmng.onrender.com']  # Allow all for development; restrict in production
+ALLOWED_HOSTS = [
+    "archon-eventmng.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]   # Allow all for development; restrict in production
 
 # Application definition
 INSTALLED_APPS = [
